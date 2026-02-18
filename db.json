@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "user@gmail.com",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "ed76",
+      "name": "mwk",
+      "email": "kdwjs@gmail.com",
+      "password": "123",
+      "role": "admin"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "type": "book",
+      "name": "Atomic Habits",
+      "author": "James Clear",
+      "serial": "james ",
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki"
+    },
+    {
+      "id": "a05d",
+      "type": "book",
+      "name": "ndj",
+      "author": "ndj",
+      "serial": "nfj",
+      "available": true
+    }
+  ],
+  "issues": [
+    {
+      "id": "30f1",
+      "bookName": "Atomic Habits",
+      "author": "James Clear",
+      "issueDate": "2026-02-18",
+      "returnDate": "2026-03-05",
+      "remarks": ""
+    },
+    {
+      "id": "7134",
+      "bookName": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "issueDate": "2026-02-18",
+      "returnDate": "2026-03-05",
+      "remarks": ""
+    },
+    {
+      "id": "b919",
+      "bookName": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "issueDate": "2026-02-18",
+      "returnDate": "2026-03-05",
+      "remarks": ""
+    },
+    {
+      "id": "9c6a",
+      "bookName": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "issueDate": "2026-02-18",
+      "returnDate": "2026-03-05",
+      "remarks": ""
+    }
+  ],
+  "memberships": [
+    {
+      "id": "f234",
+      "name": "mk",
+      "email": "nnd@gmail.com",
+      "phone": "s",
+      "duration": "2 years",
+      "status": "cancelled"
+    }
+  ]
+}
