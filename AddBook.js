@@ -3,7 +3,7 @@ import axios from "axios";
 
 function AddBook(){
 
- const [type,setType] = useState("book"); // default ✅
+ const [type,setType] = useState("book"); 
  const [name,setName] = useState("");
  const [author,setAuthor] = useState("");
  const [serial,setSerial] = useState("");
@@ -96,3 +96,4 @@ function AddBook(){
 }
 
 export default AddBook;
+
