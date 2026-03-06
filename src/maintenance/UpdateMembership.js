@@ -10,8 +10,8 @@ function UpdateMembership(){
  const [email,setEmail] = useState("");
  const [phone,setPhone] = useState("");
 
- const [action,setAction] = useState("extend"); // default ✅
- const [duration,setDuration] = useState("6 months"); // default ✅
+ const [action,setAction] = useState("extend");
+ const [duration,setDuration] = useState("6 months");
 
  const [error,setError] = useState("");
 
