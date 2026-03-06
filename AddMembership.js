@@ -6,7 +6,7 @@ function AddMembership(){
  const [name,setName] = useState("");
  const [email,setEmail] = useState("");
  const [phone,setPhone] = useState("");
- const [duration,setDuration] = useState("6 months"); // default ✅
+ const [duration,setDuration] = useState("6 months");
  const [error,setError] = useState("");
 
  const addMembership = async()=>{
@@ -110,3 +110,4 @@ function AddMembership(){
 }
 
 export default AddMembership;
+
