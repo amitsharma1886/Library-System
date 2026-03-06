@@ -11,14 +11,13 @@ function UserReports() {
     const currentUser = JSON.parse(localStorage.getItem("user"));
     const issues = JSON.parse(localStorage.getItem("issues")) || [];
 
-    // Filter only current user's issues
+  
     const userIssues = issues.filter(
       issue => issue.userEmail === currentUser.email
     );
 
     setMyIssues(userIssues);
 
-    // Overdue logic
     const today = new Date();
 
     const overdue = userIssues.filter(issue => {
@@ -27,7 +26,6 @@ function UserReports() {
 
     setOverdueBooks(overdue);
 
-    // Fine calculation (example: ₹10 per overdue day)
     let fineTotal = 0;
 
     overdue.forEach(issue => {
@@ -47,7 +45,6 @@ function UserReports() {
 
       <h2>User Reports</h2>
 
-      {/* Active Issues */}
       <h3>My Active Issues</h3>
 
       {myIssues.length === 0 ? (
@@ -64,7 +61,6 @@ function UserReports() {
 
       <hr />
 
-      {/* Overdue Books */}
       <h3>My Overdue Books</h3>
 
       {overdueBooks.length === 0 ? (
@@ -81,7 +77,6 @@ function UserReports() {
 
       <hr />
 
-      {/* Fine Section */}
       <h3>My Fine Details</h3>
 
       <p>Total Fine: ₹ {totalFine}</p>
