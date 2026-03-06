@@ -3,7 +3,7 @@ import axios from "axios";
 
 function UserManagement(){
 
- const [mode,setMode] = useState("new"); // default ✅
+ const [mode,setMode] = useState("new");
  const [users,setUsers] = useState([]);
 
  const [selected,setSelected] = useState("");
